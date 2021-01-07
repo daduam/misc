@@ -10,16 +10,14 @@ typedef vector<ii> vii;
 
 #define REP(i, a, b) for (int i = a; i < b; i++)
 #define RREP(i, a, b) for (int i = a; i >= b; i--)
-#define print(x) cout << (x) << "\n"
 #define all(x) x.begin(), x.end()
 
 template<class T> inline int sz(T container) { return static_cast<int>(container.size()); }
+template<class T> inline void print(T expr) { cout << (expr) << "\n"; }
 
-#define MOD 1000000007
+constexpr int MOD = 1000000007;
 
-void solve() {
-
-}
+void solve() {}
 
 int main() {
   ios_base::sync_with_stdio(false);
