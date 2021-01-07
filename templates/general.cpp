@@ -10,9 +10,10 @@ typedef vector<ii> vii;
 
 #define REP(i, a, b) for (int i = a; i < b; i++)
 #define RREP(i, a, b) for (int i = a; i >= b; i--)
-#define len(x) (int)(x).size()
 #define print(x) cout << (x) << "\n"
 #define all(x) x.begin(), x.end()
+
+template<class T> inline int sz(T container) { return static_cast<int>(container.size()); }
 
 #define MOD 1000000007
 
